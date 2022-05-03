@@ -8,12 +8,16 @@ export const Navbar = () => {
     return (
         <div
             style={{
+                position: 'sticky',
+                zIndex: 1,
                 display: 'flex',
                 width: '100%',
+                top: 0,
                 flexDirection: 'row',
                 alignItems: 'center',
                 justifyContent: 'start',
                 padding: '0px 20px',
+                marginBottom: '5px',
                 backgroundColor: theme?.colors.gray900.value,
             }}>
             <Image
